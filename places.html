@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .bg {
+        background-color: #b8dfd8;
+      }
+      .navbar {
+        background-color: #4c4c6d !important;
+      }
+      .card {
+        background-color: #e8f6ef !important;
+        border-radius: 1rem;
+        text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        width: auto;
+        margin: 5px;
+        border-radius: 1em;
+      }
+      .btn {
+        background-color: #4c4c6d !important;
+      }
+      .btn-lg {
+        padding: 2px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        width: 80%;
+      }
+      .btn-lg:hover {
+        background-color: #6b6b91 !important;
+      }
+    </style>
+
+    <title>My favorite places</title>
+  </head>
+
+  <body class="bg">
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand p-0"
+          ><img src="images/C&G.png" alt="Logo" width="70"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Cards -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/kiev.jpg" class="card-img-top" alt="Best place" />
+            <div class="card-body">
+              <h5 class="card-title">Kiyv</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptate ea molestiae totam cupiditate, officia animi.
+              </p>
+              <a
+                href="https://images.unsplash.com/photo-1576990543162-7e1df5effea4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2564&q=80"
+                target="_blank"
+                class="btn btn-primary btn-lg"
+                >More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="/images/haifa.jpg"
+              class="card-img-top"
+              alt="Life place"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Haifa</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci suscipit ipsa vel consectetur, cum aperiam.
+              </p>
+              <a
+                href="https://wallpaperaccess.com/full/4599025.jpg"
+                target="_blank"
+                class="btn btn-primary btn-lg"
+                >More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/images/bud.jpg" class="card-img-top" alt="Love place" />
+            <div class="card-body">
+              <h5 class="card-title">Budapest</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                quibusdam deserunt vitae laborum tempora ex?
+              </p>
+              <a
+                href="https://images.unsplash.com/photo-1507622560124-621e26755fb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
+                target="_blank"
+                class="btn btn-primary btn-lg"
+                >More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
